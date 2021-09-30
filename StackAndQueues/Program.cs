@@ -7,12 +7,9 @@ namespace StackAndQueues
         static void Main(string[] args)
         {
             StackAndQueue list = new StackAndQueue();
-            list.Add(70);
-            list.Add(30);
-            list.Add(56);
-            list.Peek(); 
-            list.Pop();
-            list.IsEmpty();
+            list.Enqueue(56);
+            list.Enqueue(30);
+            list.Enqueue(70);
             list.Display();
 
         }
