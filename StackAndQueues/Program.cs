@@ -10,6 +10,9 @@ namespace StackAndQueues
             list.Add(70);
             list.Add(30);
             list.Add(56);
+            list.Peek(); 
+            list.Pop();
+            list.IsEmpty();
             list.Display();
 
         }
